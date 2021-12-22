@@ -1,0 +1,95 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html
+{
+    font-size: 62.5%;
+}
+body
+{
+    font-size: 1.6rem;
+    background-image: url("./assets/cool-background1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    overflow: hidden;
+}
+.container
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    justify-content: flex-start;
+}
+.container h1
+{
+    color: white;
+    font-size: 5.5rem;
+    font-weight: bolder;
+    margin-bottom: 100px;
+}
+main
+{
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, .5);
+    width: 70vw;
+    height: 50vh;
+    min-width: 288px;
+    border-radius: 16px;
+    padding: 30px;
+    color: white;
+}
+.options__container
+{
+    margin-top: 5vh;
+}
+.options__container ul
+{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+.options__container ul li
+{
+    margin: 1vh auto;
+    cursor: pointer;
+}
+.options__container ul li:hover p
+{
+    background-color: white;
+    color: black;
+}
+.options__container ul li p
+{
+    padding: 15px;
+    background-color: lightseagreen;
+    border-radius: 12px;
+    font-size: 2rem;
+    font-weight: bolder;
+    will-change: background-color , color;
+}
+.result
+{
+    margin-top: 20px;
+    color: white;
+    font-size: 2.3rem;
+    font-weight: bolder;
+}
+.marker
+{    
+    margin: 0 auto;
+    margin-top: 16px;
+    background-color: rgba(255, 255, 255, .5);
+    width: 40%;
+    padding: 10px;
+    border-radius: 12px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    color: white;
+}

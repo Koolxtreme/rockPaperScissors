@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--        Normalize       -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--        Custom CSS      -->
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Rock, Paper, Scissors</h1>
+        <main>
+            <h2>Choose your option</h2>
+            <div class="options__container">
+                <ul class="options">
+                    <li class="options-item" id="optionRock">
+                        <p>Rock</p>
+                    </li>
+                    <li class="options-item" id="optionPaper">
+                        <p>Paper</p>
+                    </li>
+                    <li class="options-item" id="optionScissor">
+                        <p>Scissors</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="result" id="result"></div>
+        </main>
+        <div class="marker">
+            <p>Wins =</p><p id="wins">0</p>
+            <p>Loses = </p><p id="loses">0</p>
+            <p>Draws  =</p><p id="draws">0</p>
+        </div>
+    </div>
+
+<!--        Cusom JS        -->
+<script src="./app.js"></script>
+</body>
+</html>
